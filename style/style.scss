@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+.h1 {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+
+
+  }
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.paralex1 .paralex2 .interior {
+    width: 100%;
+}
+
+.paralex1 {
+    height: 100%;
+    background-position: center;
+    background-image: url("../images/mauntainwide.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -0px;
+  }
+  
+  .interior {
+    min-height: 300px;
+    background-color: rgb(185, 193, 219);
+  }
+  
+  .paralex2 {
+    height: 400px;
+    background-position: center;
+    background-image: url("../images/sandcanyon.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.6;
+  }
+  
+  .paralex3 {
+    height: 400px;
+    background-position: center;
+    background-image: url("../images/mountain.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.6;
+    background-position-y: -0px;
+  }
+
+.footer {
+    background-color: rgb(32, 32, 32);
+    transform: translate();
+}
